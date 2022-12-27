@@ -12,12 +12,12 @@ function App() {
     setIndex(anotherRandom);
   };
 
-  const randomColorIndex = Math.floor(Math.random() * Colors.length);
-  document.body.style = `background: ${Colors[randomColorIndex]}`;
+  const ColorIndex = Math.floor(Math.random() * Colors.length);
+  document.body.style = `background: ${Colors[ColorIndex]}`;
 
 
     return (
-        <div className='App' style={{ color: Colors[randomColorIndex]}}>
+        <div className='App' style={{ color: Colors[ColorIndex]}}>
           <div className='Card'>
             <h1>{users[index].name.title} {users[index].name.first} {users[index].name.last}</h1>
             <img src={users[index].picture.large} alt="photo" />
