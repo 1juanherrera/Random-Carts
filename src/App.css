@@ -1,0 +1,59 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+  
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+  
+.Card {
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 1rem;
+}
+
+
+.Card h1 {
+    font-size: 40px;
+}
+  
+.Card img {
+    border-radius: 50%;
+}
+  
+.card ul {
+    padding: 0;
+}
+  
+.Card ul li {
+    margin-bottom: 10px;
+    text-align: center;
+    list-style: none;
+    padding-right: 40px;
+    font-size: 20px;
+}
+  
+.Card ul li i {
+    margin-right: 10px;
+}
+  
+button {
+    background: greenyellow;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.bx-shuffle {
+    font-size: 30px;
+}
