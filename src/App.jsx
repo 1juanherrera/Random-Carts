@@ -8,8 +8,8 @@ function App() {
   const [index, setIndex] = useState(randomIndex);
 
   const changeUser = () => {
-    const anotherRandom = Math.floor(Math.random() * users.length);
-    setIndex(anotherRandom);
+    const Random = Math.floor(Math.random() * users.length);
+    setIndex(Random);
   };
 
   const ColorIndex = Math.floor(Math.random() * Colors.length);
