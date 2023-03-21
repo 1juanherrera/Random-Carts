@@ -10,6 +10,7 @@ function App() {
 
   const changeUser = () => {
     const Random = Math.floor(Math.random() * users.length);
+    
     setIndex(Random);
   };
 
